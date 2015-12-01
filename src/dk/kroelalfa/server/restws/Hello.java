@@ -18,6 +18,8 @@ import javax.ws.rs.core.MediaType;
 @Path("/hello")
 public class Hello {
 
+	//something changed.
+	
   // This method is called if TEXT_PLAIN is request
   @GET
   @Produces(MediaType.TEXT_PLAIN)
